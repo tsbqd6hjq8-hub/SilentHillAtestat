@@ -1,0 +1,80 @@
+.GameIntro{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.VideoContainer{
+    position: relative;
+}
+.TrailerVideo{
+    width: 100%;
+    filter:contrast(1.09);
+}
+.VideoFade{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.976), transparent);
+    pointer-events: none;
+} 
+.PiramidHeadimageHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D72323;
+    box-shadow: 0px 0px 40px rgb(215, 35, 35);
+    border: none;
+    border-radius: 6px;
+}
+.PHimage{
+    width: 300px;
+    filter:contrast(1.03);
+    transform: translateY(50px);
+
+    opacity: 0;
+    transition: opacity 1s ease, transform 0.6s ease-in, width 0.5s ease-in;
+}
+.PHimage.visible{
+    width: 400px;
+    transform: translateY(0px);
+    opacity: 1;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.RightDescpContainer, .LeftDescContainer{
+    width: 400px;
+    display: flex;
+}
+.LeftDescContainer{
+    align-items: start;
+        flex-direction: column;
+}
+.SHtitle{
+    color: white;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-in, transform 0.5s ease-in;
+}
+.SHtitle.visible{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.RightDescpContainer{
+    align-items: center;
+        flex-direction: row;
+}
+
+.RightDescpText, .LeftDescpText{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-in, transform 0.5s ease-in;
+}
+.LeftDescpText.visible, .RightDescpText.visible{
+    opacity: 1;
+    transform: translateY(0px)
+}

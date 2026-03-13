@@ -1,0 +1,68 @@
+.Shortinfotitle{
+    text-align: center;
+}
+.Shortinfo_container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.44);
+    background-color: rgb(0, 0, 0);
+
+}
+.shortinfo_text{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.Infotext_container{
+    width: 500px;
+    margin-right: 40px;
+}
+.Infoinfoimage{
+    height: 300px;
+}
+.Overview_container{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    flex-direction: row;
+}
+.Gameplay_container{
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.44);
+    display: flex;
+    margin-right: 40px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Gameplaytext_container{
+    padding: 40px;
+}
+
+.Gameplay_container p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.Plot_container{
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Plottext_container{
+    padding: 40px;
+}
+.Plot_container p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}

@@ -1,0 +1,124 @@
+.FinalPage-container{
+    margin-top: 200px;
+    background-color: #D72323;
+    width: 100%;
+    height: 750px;
+}
+.Copyrighttext{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.Portal_Container{
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.OfficialSite_button{
+    background-color: #D72323;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+
+    transition: padding-left 0.15s ease-in, padding-right 0.15s ease-in, padding-top 0.15s ease-in, padding-bottom 0.15s ease-in, box-shadow 0.15s ease-in;
+}
+.OfficialSite_button:hover{
+    box-shadow: 0 0 10px #00000057;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.Portal_button{
+    background-color: #D72323;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    transition: padding-left 0.15s ease-in, padding-right 0.15s ease-in, padding-top 0.15s ease-in, padding-bottom 0.15s ease-in, box-shadow 0.15s ease-in;
+}
+.Portal_button:hover{
+    box-shadow: 0 0 10px #00000057;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.KonamiLogo{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.KonamiLogo img{
+    width: 400px;
+}
+.PlatformContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SteamLogo{
+    width: 70px;
+    margin-right: 20px;
+}
+.Ps5Logo{
+    width: 100px;
+    margin-right: 20px;
+}
+.XboxLogo{
+    width: 70px;
+}
+.KonamiDescription_Container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.KonamiDescription_Text{
+    width: 800px;
+    text-align: center;
+}
+.GameEngine_Container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.UnrealEngineLogo{
+    width: 80px;
+}
+.UnrealEngineText{
+    width: 150px;
+}
+.SocialMedia_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.XLogo{
+    width: 80px;
+    margin-right: 20px;
+}
+.YtLogo{
+    width: 90px;
+    margin-right: 20px;
+}
+.FacebookLogo{
+    width: 65px;
+}

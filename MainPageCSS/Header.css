@@ -1,0 +1,106 @@
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 100;
+}
+.Logodiv{
+    display: flex;
+    flex-direction: row;
+}
+.Languagediv{
+    margin-left: 20px;
+}
+.LanguageText{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+    transition: font-size 0.15s ease-in;
+}
+.LanguageText:hover{
+    font-size: 25px;
+    color: #D72323;
+}
+.Logo{
+    width: 300px;
+}
+
+.Middlediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+.Homediv, .Link2div, .Link3div{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.headertext{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    color:white;
+    background-color: #ffffff0a;
+    backdrop-filter: blur(12px);
+    transition: background-color 0.15s ease, padding 0.15s ease, font-size 0.15s ease;
+}
+.headertext:hover{
+    background-color: #D72323;
+    font-size: 26px;
+    padding: 10px;
+}
+
+
+.WatchTrailerdiv{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.PlayButtondiv{
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E3636;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 0px 0px 15px #3e36368e;
+    transition: box-shadow 0.15s ease-in, background-color 0.15s ease-in;
+    cursor: pointer;
+}
+.PlayButtondiv:hover{
+    box-shadow: 0px 0px 15px #D72323;
+    background-color: #D72323;
+}
+.Trailertextdiv{
+    margin-right: 20px;
+    background-color: #F1F1F1;
+    box-shadow: 0px 0px 15px #b4b4b4a1;
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.Trailertext{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif
+}
+.PlayButtonImage{
+    width: 30px;
+}
